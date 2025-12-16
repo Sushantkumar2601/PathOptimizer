@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import Routes from './routes'
+import outlineMap from "./outlineMap.png";
+
 
 const App = () => {
   const [data, setData] = useState(null);
